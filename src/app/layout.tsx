@@ -1,3 +1,4 @@
+import Script from 'next/script'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -16,6 +17,27 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
+      {/* <div> */}
+          {/* <Script type="text/javascript" id="vesselmapspec">
+            var width="100%";
+            var height="300";
+            var names=true;
+  
+            var imo="9506291";
+            var show_track=true;
+          </Script>
+          <Script
+          type="text/javascript" 
+          src="https://www.vesselfinder.com/aismap.js" 
+          strategy="beforeInteractive"
+          defer={false}
+          id="vesselmap"
+          ></Script> */}
+          {/* Hello World */}
+        {/* </div> */}
+        
+          {/* <Script>console.log("Hello World")</Script> */}
+          {/* <div>Hello World</div> */}
     </html>
   )
 }
